@@ -1,0 +1,41 @@
+Paper 2: analysis-only anonymous review artifact
+
+Run: python reproduce.py --write
+Requires Python 3.10+ and NumPy (version used is pinned in requirements.txt).
+No model inference, training, network access, or source mahjong data is needed.
+
+Coverage: the 4,000-hanchan pilot direct comparison reported in the manuscript;
+24,000 hanchans from the three-parent replication; and 24,000 hanchans from the
+later parent-baseline supplement. Earlier pilot contextual evaluations not
+reported in the current manuscript are outside this package.
+
+Chronology: the pilot was observed before freezing the three independent parent
+chains. The parent-baseline supplement was frozen after observing the replication.
+Only three parents enter model-level summaries. Shared evaluation walls are not
+additional independent training starts.
+
+rank_observations.csv contains simulated challenger ranks and aggregate outcomes,
+with normalized wall indices and four rotations per wall. manifest.json identifies
+which panels share walls, preserves the original bootstrap population ordering,
+records frozen identifiers and expected machine-summary values, and provides
+development CE values for diagnostic ordering. All six parent panels are included.
+
+reproduce.py independently computes panel differences, paired challenger-rank
+comparisons, descriptive three-parent t intervals (df=2), and auxiliary outcomes.
+It uses 5,000 whole-wall bootstrap resamples, keeping all four rotations together.
+The seeds differ between the pilot (2026092006), replication (2026092106), and
+supplement (20260906), as originally frozen. Computed rank statistics must agree
+with the frozen summaries to within 1e-9; expected values are validation targets,
+not substitutes for computation. analysis_results.json is the resulting output.
+
+The common-Mortal and common-parent pairings compare challenger ranks in separate
+contests; they are not direct encounters between unseen-data and replay policies.
+Intervals are marginal, conditional on the evaluated models, and do not establish
+equivalence or correct for the adaptive research sequence.
+
+No Tenhou source logs, source game IDs, compressed traces, local filesystem paths,
+author identity, trained policy weights, or third-party Mortal weights are included.
+This package reproduces statistical analysis, not model training or the game engine.
+This package is prepared for public analysis reproduction. Repository publication
+does not include or grant rights to any Tenhou source data or third-party weights.
+

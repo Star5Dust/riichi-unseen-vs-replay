@@ -1,0 +1,348 @@
+{
+  "statistics_schema": {
+    "panel": [
+      "challenger_rank",
+      "pooled_opponent_rank",
+      "delta",
+      "ci_low",
+      "ci_high"
+    ],
+    "paired": [
+      "new_minus_old_challenger_rank",
+      "ci_low",
+      "ci_high"
+    ],
+    "cross": [
+      "mean",
+      "sample_sd",
+      "t95_low",
+      "t95_high"
+    ]
+  },
+  "statistics": {
+    "pilot/direct": [
+      2.51125,
+      2.49625,
+      0.014999999999999994,
+      -0.022666666666666672,
+      0.05200833333333321
+    ],
+    "replication/20260921/direct": [
+      2.5185,
+      2.4938333333333333,
+      0.024666666666666667,
+      -0.01633333333333333,
+      0.06366666666666666
+    ],
+    "replication/20260921/mortal/new": [
+      2.5615,
+      2.4795,
+      0.082,
+      0.026,
+      0.13666666666666666
+    ],
+    "replication/20260921/mortal/old": [
+      2.518,
+      2.494,
+      0.024000000000000004,
+      -0.03401666666666667,
+      0.07933333333333334
+    ],
+    "replication/20260922/direct": [
+      2.4915,
+      2.5028333333333332,
+      -0.011333333333333332,
+      -0.05133333333333333,
+      0.02933333333333333
+    ],
+    "replication/20260922/mortal/new": [
+      2.5245,
+      2.4918333333333336,
+      0.03266666666666666,
+      -0.026016666666666664,
+      0.09199999999999998
+    ],
+    "replication/20260922/mortal/old": [
+      2.5375,
+      2.4875000000000003,
+      0.04999999999999999,
+      -0.009333333333333332,
+      0.10799999999999998
+    ],
+    "replication/20260923/direct": [
+      2.4885,
+      2.503833333333333,
+      -0.015333333333333329,
+      -0.05433333333333333,
+      0.023666666666666666
+    ],
+    "replication/20260923/mortal/new": [
+      2.543,
+      2.4856666666666665,
+      0.057333333333333326,
+      -0.002666666666666668,
+      0.116
+    ],
+    "replication/20260923/mortal/old": [
+      2.527,
+      2.491,
+      0.036,
+      -0.019999999999999997,
+      0.09266666666666666
+    ],
+    "supplement/20260921/new": [
+      2.509,
+      2.497,
+      0.012,
+      -0.02533333333333333,
+      0.049333333333333326
+    ],
+    "supplement/20260921/old": [
+      2.4895,
+      2.5035000000000003,
+      -0.014,
+      -0.05466666666666666,
+      0.025
+    ],
+    "supplement/20260922/new": [
+      2.478,
+      2.5073333333333334,
+      -0.02933333333333333,
+      -0.069675,
+      0.011341666666666545
+    ],
+    "supplement/20260922/old": [
+      2.47875,
+      2.5070833333333336,
+      -0.028333333333333335,
+      -0.067,
+      0.009666666666666667
+    ],
+    "supplement/20260923/new": [
+      2.50075,
+      2.49975,
+      0.0010000000000000005,
+      -0.038666666666666655,
+      0.04
+    ],
+    "supplement/20260923/old": [
+      2.51675,
+      2.4944166666666665,
+      0.02233333333333333,
+      -0.015000000000000003,
+      0.06133333333333334
+    ],
+    "paired/mortal/20260921": [
+      0.0435,
+      -0.0095,
+      0.096
+    ],
+    "paired/mortal/20260922": [
+      -0.013,
+      -0.0695,
+      0.0435
+    ],
+    "paired/mortal/20260923": [
+      0.016,
+      -0.039,
+      0.07051249999999981
+    ],
+    "paired/parent/20260921": [
+      0.0195,
+      -0.0165,
+      0.05600624999999991
+    ],
+    "paired/parent/20260922": [
+      -0.00075,
+      -0.03875625,
+      0.038
+    ],
+    "paired/parent/20260923": [
+      -0.016,
+      -0.054,
+      0.021
+    ],
+    "cross/replication": [
+      -0.0006666666666666649,
+      0.022030282189144407,
+      -0.055392921455280034,
+      0.05405958812194671
+    ],
+    "cross/supplement/new": [
+      -0.005444444444444443,
+      0.02140699089688364,
+      -0.05862235782848901,
+      0.047733468939600135
+    ],
+    "cross/supplement/old": [
+      -0.006666666666666668,
+      0.026117256959931893,
+      -0.0715455296107472,
+      0.058212196277413863
+    ]
+  },
+  "auxiliary": {
+    "pilot/direct": {
+      "hanchans": 4000,
+      "challenger_net_points": -149.6,
+      "challenger_win_rate": 0.21472067778660311,
+      "challenger_dealin_rate": 0.12515945796327052,
+      "opponent_net_points_per_seat": 49.86666666666667,
+      "opponent_win_rate": 0.21780954902479924,
+      "opponent_dealin_rate": 0.13112860134305726
+    },
+    "replication/20260921/direct": {
+      "hanchans": 4000,
+      "challenger_net_points": -219.875,
+      "challenger_win_rate": 0.2142653080658985,
+      "challenger_dealin_rate": 0.11984572897819255,
+      "opponent_net_points_per_seat": 73.29166666666667,
+      "opponent_win_rate": 0.21698727105355045,
+      "opponent_dealin_rate": 0.1311224327841793
+    },
+    "replication/20260921/mortal/new": {
+      "hanchans": 2000,
+      "challenger_net_points": -675.2,
+      "challenger_win_rate": 0.20961639768210336,
+      "challenger_dealin_rate": 0.13040563191418036,
+      "opponent_net_points_per_seat": 225.06666666666666,
+      "opponent_win_rate": 0.220599268872819,
+      "opponent_dealin_rate": 0.13224143160448892
+    },
+    "replication/20260921/mortal/old": {
+      "hanchans": 2000,
+      "challenger_net_points": 172.85,
+      "challenger_win_rate": 0.21668670353450348,
+      "challenger_dealin_rate": 0.13666746814138014,
+      "opponent_net_points_per_seat": -57.61666666666667,
+      "opponent_win_rate": 0.21896289172076622,
+      "opponent_dealin_rate": 0.12854051454676604
+    },
+    "replication/20260922/direct": {
+      "hanchans": 4000,
+      "challenger_net_points": -84.55,
+      "challenger_win_rate": 0.2114031578699673,
+      "challenger_dealin_rate": 0.1327858437066146,
+      "opponent_net_points_per_seat": 28.183333333333334,
+      "opponent_win_rate": 0.21596818598959927,
+      "opponent_dealin_rate": 0.1258677083088218
+    },
+    "replication/20260922/mortal/new": {
+      "hanchans": 2000,
+      "challenger_net_points": -141.1,
+      "challenger_win_rate": 0.2118505714011332,
+      "challenger_dealin_rate": 0.13478344377220783,
+      "opponent_net_points_per_seat": 47.03333333333333,
+      "opponent_win_rate": 0.22028554051025961,
+      "opponent_dealin_rate": 0.12796504369538078
+    },
+    "replication/20260922/mortal/old": {
+      "hanchans": 2000,
+      "challenger_net_points": -270.45,
+      "challenger_win_rate": 0.21476158751308652,
+      "challenger_dealin_rate": 0.1274864376130199,
+      "opponent_net_points_per_seat": 90.15,
+      "opponent_win_rate": 0.21972653151867008,
+      "opponent_dealin_rate": 0.13121411122743568
+    },
+    "replication/20260923/direct": {
+      "hanchans": 4000,
+      "challenger_net_points": 266.075,
+      "challenger_win_rate": 0.21480886452771347,
+      "challenger_dealin_rate": 0.1309124415253036,
+      "opponent_net_points_per_seat": -88.69166666666666,
+      "opponent_win_rate": 0.2121627368520531,
+      "opponent_dealin_rate": 0.12376159649703099
+    },
+    "replication/20260923/mortal/new": {
+      "hanchans": 2000,
+      "challenger_net_points": -593.35,
+      "challenger_win_rate": 0.2121400257891972,
+      "challenger_dealin_rate": 0.13104732795262428,
+      "opponent_net_points_per_seat": 197.78333333333333,
+      "opponent_win_rate": 0.21992454271932757,
+      "opponent_dealin_rate": 0.1310632472101501
+    },
+    "replication/20260923/mortal/old": {
+      "hanchans": 2000,
+      "challenger_net_points": -315.5,
+      "challenger_win_rate": 0.21104423426005542,
+      "challenger_dealin_rate": 0.12606286423999236,
+      "opponent_net_points_per_seat": 105.16666666666667,
+      "opponent_win_rate": 0.21932422534314194,
+      "opponent_dealin_rate": 0.13104678194961944
+    },
+    "supplement/20260921/new": {
+      "hanchans": 4000,
+      "challenger_net_points": -211.1,
+      "challenger_win_rate": 0.21337473923762565,
+      "challenger_dealin_rate": 0.12720462734686136,
+      "opponent_net_points_per_seat": 70.36666666666666,
+      "opponent_win_rate": 0.21169163663948418,
+      "opponent_dealin_rate": 0.12219482900309754
+    },
+    "supplement/20260921/old": {
+      "hanchans": 4000,
+      "challenger_net_points": 156.475,
+      "challenger_win_rate": 0.2166997542068444,
+      "challenger_dealin_rate": 0.1357770845150312,
+      "opponent_net_points_per_seat": -52.15833333333333,
+      "opponent_win_rate": 0.21005073422827253,
+      "opponent_dealin_rate": 0.11972174954307682
+    },
+    "supplement/20260922/new": {
+      "hanchans": 4000,
+      "challenger_net_points": 248.55,
+      "challenger_win_rate": 0.21135293843500955,
+      "challenger_dealin_rate": 0.13809013375588386,
+      "opponent_net_points_per_seat": -82.85,
+      "opponent_win_rate": 0.22265461154867874,
+      "opponent_dealin_rate": 0.13374034891488404
+    },
+    "supplement/20260922/old": {
+      "hanchans": 4000,
+      "challenger_net_points": 393.225,
+      "challenger_win_rate": 0.21683667541882568,
+      "challenger_dealin_rate": 0.13388479680275112,
+      "opponent_net_points_per_seat": -131.075,
+      "opponent_win_rate": 0.22053891612643384,
+      "opponent_dealin_rate": 0.13568944551587395
+    },
+    "supplement/20260923/new": {
+      "hanchans": 4000,
+      "challenger_net_points": 163.575,
+      "challenger_win_rate": 0.21632121283903827,
+      "challenger_dealin_rate": 0.1329622172213668,
+      "opponent_net_points_per_seat": -54.525,
+      "opponent_win_rate": 0.2205851000829089,
+      "opponent_dealin_rate": 0.1370050140155553
+    },
+    "supplement/20260923/old": {
+      "hanchans": 4000,
+      "challenger_net_points": -133.875,
+      "challenger_win_rate": 0.2126884097161803,
+      "challenger_dealin_rate": 0.12432101958755615,
+      "opponent_net_points_per_seat": 44.625,
+      "opponent_win_rate": 0.2202443937576912,
+      "opponent_dealin_rate": 0.1365720601029934
+    }
+  },
+  "development_ce": {
+    "20260921/100k": 0.5384870615368185,
+    "20260921/new": 0.528944562067712,
+    "20260921/old": 0.529872720733936,
+    "20260922/100k": 0.5370752006282273,
+    "20260922/new": 0.5283521770504043,
+    "20260922/old": 0.5271978412689574,
+    "20260923/100k": 0.5358942929947909,
+    "20260923/new": 0.5275845077746748,
+    "20260923/old": 0.5266244625678784
+  },
+  "counts": {
+    "pilot_reported_comparison": 4000,
+    "replication": 24000,
+    "later_parent_supplement": 24000,
+    "independent_parents": 3
+  },
+  "verification": "All statistics match frozen summaries within 1e-9."
+}
