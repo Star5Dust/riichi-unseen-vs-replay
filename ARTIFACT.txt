@@ -1,7 +1,8 @@
-Paper 2: analysis-only anonymous review artifact
+Paper 2: public analysis-only reproduction artifact
 
 Run: python reproduce.py --write
 Requires Python 3.10+ and NumPy (version used is pinned in requirements.txt).
+Matplotlib is also required for the optional figure-generation script.
 No model inference, training, network access, or source mahjong data is needed.
 
 Coverage: the 4,000-hanchan pilot direct comparison reported in the manuscript;
@@ -34,8 +35,24 @@ Intervals are marginal, conditional on the evaluated models, and do not establis
 equivalence or correct for the adaptive research sequence.
 
 No Tenhou source logs, source game IDs, compressed traces, local filesystem paths,
-author identity, trained policy weights, or third-party Mortal weights are included.
+trained policy weights, or third-party Mortal weights are included.
 This package reproduces statistical analysis, not model training or the game engine.
 This package is prepared for public analysis reproduction. Repository publication
 does not include or grant rights to any Tenhou source data or third-party weights.
 
+
+October 2026 update: supplementary_analysis.py adds exploratory pooled estimates
+using 10,000 joint whole-wall bootstrap resamples (seed 20261020), heterogeneity,
+minimum detectable effects, a post hoc precision bound, and CE comparisons.
+Run python supplementary_analysis.py --write to write supplementary_results.json,
+then python make_figures.py figures/ to draw manuscript Figures 2 and 3.
+
+The pooled direct 95% interval [-0.0238, +0.0227] describes wall-sampling
+variability for fixed trained policies. The original three-parent descriptive
+t interval [-0.0554, +0.0541] (df=2) remains in the frozen results. These
+intervals have different interpretations; the exploratory interval does not
+replace the original or quantify variability across new training runs.
+The post hoc precision bound is not evidence of practical equivalence.
+
+The outcome CSV, manifest, frozen reproduction script, and frozen analysis
+results are unchanged. See README.md for scope and data-rights information.
